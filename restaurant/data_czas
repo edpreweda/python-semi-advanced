@@ -1,0 +1,7 @@
+from datetime import datetime
+from time import sleep
+x = datetime.now()
+sleep(3)
+y = datetime.now()
+delta = y - x
+print(delta)
